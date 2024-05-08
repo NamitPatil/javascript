@@ -38,3 +38,6 @@ console.log(typeof(arr))
 // all non primitive data types return value is object and the function return type is object function , 
 //null return type object
 
+//*******************************************************************//
+// stack - copy of variable will get (primitive)   
+// Heap (non-primitive) - rerference of a original value
