@@ -7,7 +7,7 @@ let valueInNumber=Number(score)
 //console.log(valueInNumber)
 
 // "33" =33
-//"33abc"=NaN undefined=NaN
+//"33abc"=NaN           undefined=NaN
 //true =1;false=0
 
 let isLoggedIn="namit"
