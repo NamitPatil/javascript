@@ -1,3 +1,13 @@
+// Methods Used In This file
+//  1.push()
+//  2.concat()
+//  3.(...) spread operator
+//  4.flat()
+//  5.isArray()
+//  6.Array.from()
+//  7.Array.of()
+
+
 const marvel=["Thor","IronMan","Spiderman"]
 const s3=["Namit","pratik","Sandesh"];
 //marvel.push(s3)
