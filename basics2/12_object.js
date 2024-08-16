@@ -29,7 +29,7 @@ console.log(jsUser.greeting);
 
 jsUser.greeting2 = function()
 {
-    console.log('Hello Java',$(this.name));
+    console.log(Hello Java,$(this.name));
 }
 
 console.log(jsUser.greeting());

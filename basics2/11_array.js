@@ -9,22 +9,24 @@
 
 
 const marvel=["Thor","IronMan","Spiderman"]
-const s3=["Namit","pratik","Sandesh"];
+let s3=["Namit","pratik","Sandesh"];
+console.log(Array.isArray("s3"));
 //marvel.push(s3)
-// console.log(marvel);
-// console.log(marvel[3][0])
+//console.log(marvel);
+
+//console.log(marvel[3][0])
 
 const a=marvel.concat(s3)    //concat function
-console.log(a)
-
-const all=[...marvel,...s3]    //spread operator
-console.log(all)
+//console.log(a)
+const rutuja = ["rutja","rohit"];
+const all=[...marvel,...s3,...rutuja]    //spread operator
+//console.log(all)
 
 const real=[1,2,3,[4,5,6,[7,8,1,[3,2,4]]]]  //falt function searches for depth give in brackets 
-const original=real.flat(Infinity);
+const original=real.flat(2);
 console.log(original)
 
-console.log(Array.isArray("Namit"))
+
 console.log(Array.from("Namit")) //from functionconverts any value into array
 console.log(Array.from({name:"Namit"})) //interesting
 
